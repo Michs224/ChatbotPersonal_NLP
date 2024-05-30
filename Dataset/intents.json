@@ -1,7 +1,7 @@
 {
     "intents": [{
             "tag": "greeting",
-            "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+            "patterns": ["Hi there", "How are you?", "How are u?", "How are yu?", "Hello", "Helo", "Hw are you?", "How are yo?", "Hw ar you?", "Is anyone there?", "Hey", "Hola", "Good day", "Hai", "Hei", "Ello"],
             "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
             "context": [""]
         },
@@ -13,13 +13,13 @@
         },
         {
             "tag": "thanks",
-            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "Woww, thankss"],
             "responses": ["Happy to help!", "Any time!", "My pleasure"],
             "context": [""]
         },
         {
             "tag": "noanswer",
-            "patterns": [],
+            "patterns": [" ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " "," ", "Abcdefghi", "Oqieo wdmds" ,"Blablabalba", "Ckckck", "Ralwklkkww","Pqfinwf wecbwebinfg", "Dws wswksowkawao dd idujaw"],
             "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
             "context": [""]
         },
@@ -157,7 +157,7 @@
         },
         {
             "tag": "Deep_Learning",
-            "patterns": ["What is Deep Learning?", "Deep Learning", "Define Deep Learning"],
+            "patterns": ["What is Deep Learning?", "Deep Learning", "Define Deep Learning", "What is Dep Lrning?", "Deep Lrning"],
             "responses": ["Deep learning (also known as deep structured learning) is part of a broader family of machine learning methods based on artificial neural networks with representation learning."],
             "context": [""]
         },
@@ -361,7 +361,7 @@
         },
         {
             "tag": "ml",
-            "patterns": ["defnition of machine learning?", "what do you mean by ml?", "what is the meaning of ml?", "machine learning", "ml"],
+            "patterns": ["defnition of machine learning?", "what do you mean by ml?", "what is the meaning of ml?", "machine learning", "ml", "what is machine learning?", "machine lrning", "mching learning"],
             "responses": ["Machine learning is a branch of computer science which deals with system programming in order to automatically learn and improve with experience. For example: Robots are programmed so that they can perform the task based on data they gather from sensors. It automatically learns programs from data."],
             "context": [""]
         },
@@ -608,7 +608,7 @@
         {
             "tag": "applications",
             "patterns": [
-                "what are the applications of machine learning",
+                "what are the applications of machine learning?",
                 "Mention some applications of machine leraning",
                 "some applications of machine learning"
             ],
