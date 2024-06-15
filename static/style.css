@@ -149,6 +149,7 @@ border-radius: 0 0 15px 15px !important;
 	margin-right: 20px;
 }
 .msg_container{
+	color: white;
 	margin-top: auto;
 	margin-bottom: auto;
 	margin-left: 10px;
@@ -158,6 +159,7 @@ border-radius: 0 0 15px 15px !important;
 	position: relative;
 }
 .msg_container_send{
+	color: white;
 	margin-top: auto;
 	margin-bottom: auto;
 	margin-right: 10px;
